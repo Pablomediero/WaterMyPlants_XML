@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">WaterMyPlants_XML</string>
+    <string name="add_plant">ADD PLANT</string>
+    <string name="home_plant">Lets Care My Plants</string>
+    <string name="input_plant_name">Input Plant Name</string>
+    <string name="select_watering_day">Select Watering Day</string>
+    <string name="create_plant">Create Plant</string>
+    <string-array name="days_of_week">
+
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_plant">DETAIL PLANT</string>
 </resources>
