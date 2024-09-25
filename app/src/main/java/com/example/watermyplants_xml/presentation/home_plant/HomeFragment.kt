@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.watermyplants_xml.R
@@ -33,11 +34,21 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        // Configura el ViewPager2 con el adaptador
+        initUI()
+        initListeners()
+    }
+
+    private fun initListeners() {
+        binding.button.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_addPlantFragment)
+        }
+    }
+
+    private fun initUI() {
+
         val pagerAdapter = PagerAdapter(this)
         binding.viewPager.adapter = pagerAdapter
 
-        // Configura TabLayout con ViewPager2
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, position ->
             tab.text = when (position) {
                 0 -> "Upcoming"

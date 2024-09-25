@@ -11,5 +11,9 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.watermyplants_xml.presentation.home_plant.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_addPlantFragment"
+            app:destination="@id/addPlantFragment" />
+    </fragment>
 </navigation>
