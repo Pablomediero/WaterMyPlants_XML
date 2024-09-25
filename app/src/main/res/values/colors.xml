@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales verdes -->
+    <color name="color_primary_green">#4CAF50</color> <!-- Verde brillante -->
+    <color name="color_primary_dark_green">#388E3C</color> <!-- Verde oscuro -->
+    <color name="color_accent_light_green">#8BC34A</color> <!-- Verde claro -->
+    <color name="color_accent_green">#43A047</color> <!-- Verde mediano -->
+    <color name="color_primary_background_green">#E8F5E9</color> <!-- Fondo verde claro -->
+
+    <!-- Colores complementarios (amarillos y tierra) -->
+    <color name="color_accent_yellow">#FFEB3B</color> <!-- Amarillo -->
+    <color name="color_accent_dark_yellow">#FBC02D</color> <!-- Amarillo oscuro -->
+    <color name="color_accent_brown">#795548</color> <!-- Marrón -->
+    <color name="color_accent_light_brown">#A1887F</color> <!-- Marrón claro -->
+    <color name="color_accent_orange">#FF9800</color> <!-- Naranja -->
+
+    <!-- Colores para texto y estados -->
+    <color name="color_text_primary">#2E7D32</color> <!-- Texto verde oscuro -->
+    <color name="color_text_secondary">#689F38</color> <!-- Texto verde medio -->
+    <color name="color_text_on_primary">#FFFFFF</color> <!-- Texto sobre color verde -->
+    <color name="color_text_hint">#A5D6A7</color> <!-- Verde claro para hints -->
+
+    <!-- Colores para fondo y superficie -->
+    <color name="color_background">#F1F8E9</color> <!-- Verde muy claro para fondo -->
+    <color name="color_surface">#DCEDC8</color> <!-- Verde muy pálido para superficies -->
+    <color name="color_divider">#C8E6C9</color> <!-- Verde suave para divisores -->
+
+    <!-- Colores de error y éxito -->
+    <color name="color_error">#D32F2F</color> <!-- Rojo para errores -->
+    <color name="color_success">#66BB6A</color> <!-- Verde para éxito -->
+
+    <!-- Colores adicionales para variaciones -->
+    <color name="color_highlight">#FFEB3B</color> <!-- Amarillo brillante para resaltar -->
 </resources>
