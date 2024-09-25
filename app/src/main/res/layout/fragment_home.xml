@@ -32,6 +32,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_large"
             android:backgroundTint="@color/color_background"
             android:text="@string/create_plant"
             android:textColor="@color/cardview_dark_background"
@@ -61,6 +62,7 @@
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewPager"
+            android:saveEnabled="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
